@@ -178,6 +178,7 @@ h6 {
 .about .one a:hover {
   background: #fb5607;
   color: #dce2e2;
+  transition: 0.75s;
 }
 
 .about .two {
@@ -386,4 +387,7 @@ h6 {
 
 .contact .map iframe {
   width: 100%;
+}
+
+.contact .map {
 }
