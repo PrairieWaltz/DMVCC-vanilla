@@ -17,7 +17,9 @@
   position: fixed;
 }
 
+/*  NOTE  */
 .nav h2 {
+  font-family: 'Merriweather', serif;
   color: rgb(255, 255, 255);
   font-size: 1.7rem;
 }
@@ -34,7 +36,9 @@
   padding-right: 30px;
 }
 
+/*  NOTE  */
 #item li a {
+  font-family: 'Merriweather', serif;
   text-decoration: none;
   font-size: 1rem;
   text-transform: uppercase;
@@ -52,6 +56,13 @@
   color: whitesmoke;
   padding-right: 20px;
   font-weight: bolder;
+}
+
+#bars {
+  color: #fb5607;
+  /* font-weight: lighter; */
+  font-size: 1.5rem;
+  display: none;
 }
 
 .background {
@@ -77,13 +88,17 @@
   text-align: center;
 }
 
+/*  NOTE  */
 .middle p {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #dce2e2;
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin-bottom: 1.4rem;
 }
 
+/*  NOTE  */
 .middle h2 {
+  font-family: 'Merriweather', serif;
   color: #fff;
   font-size: 4rem;
 }
@@ -94,6 +109,8 @@
 }
 
 .middle .btn-mid a {
+  font-size: 1.5rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -135,12 +152,6 @@
   background: #181c20;
 }
 
-.about h3,
-h5,
-h6 {
-  color: #dce2e2;
-}
-
 .about .one {
   width: 60%;
   display: flex;
@@ -148,24 +159,34 @@ h6 {
   justify-content: flex-start;
 }
 
+/*  NOTE  */
 .about .one h3 {
+  font-family: 'Merriweather', serif;
+  color: #dce2e2;
   font-size: 2.5rem;
   padding-bottom: 1.1rem;
 }
 
+/*  NOTE  */
 .about .one h6 {
-  font-size: 1.4rem;
-  font-weight: 400;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #dce2e2;
+  font-size: 1.6rem;
   padding-bottom: 1.2rem;
 }
 
+/*  NOTE  */
 .about .one p {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #666262;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   padding-bottom: 3rem;
 }
 
+/*  NOTE  */
 .about .one a {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5rem;
   color: #fb5607;
   background: #dce2e2;
   padding: 1rem 1rem;
@@ -187,13 +208,18 @@ h6 {
   padding-left: 4rem;
 }
 
+/*  NOTE  */
 .about .two h3 {
+  font-family: 'Merriweather', serif;
+  color: whitesmoke;
   font-size: 2.5rem;
 }
 
+/*  NOTE  */
 .about .two li {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #dce2e2;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -211,22 +237,28 @@ h6 {
   width: 39%;
 }
 
+/*  NOTE  */
 .resource .resource-about h2 {
+  font-family: 'Merriweather', serif;
   color: #212529;
   font-size: 2.1rem;
   padding-bottom: 1.6rem;
 }
 
+/*  NOTE  */
 .resource .resource-about p {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #666262;
-  font-size: 1.1rem;
-  padding-bottom: 1.1rem;
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .resource .resource-about a {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #f9f9f9;
   background: #fb5607;
   padding: 0.75rem 1rem;
+  font-size: 1.3rem;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -282,23 +314,27 @@ h6 {
   padding-bottom: 10px;
 }
 
+/* NOTE */
 .resource .resource-links .card-1 .card-detail .website h4 {
+  font-family: 'Merriweather', serif;
   color: #212529;
   font-size: 1.3rem;
   padding: 5px 20px 0 20px;
 }
 
+/* NOTE */
 .resource .resource-links .card-1 .card-detail .site-link a {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   padding: 0 20px 5px 20px;
   color: #fb5607;
-  font-size: 1.1rem;
+  font-size: 1.8rem;
   text-decoration: none;
 }
 
 .resource .resource-links .card-1 .card-detail .site-link i {
   padding: 0 20px 5px 20px;
   color: #666262;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-decoration: none;
 }
 
@@ -318,7 +354,9 @@ h6 {
   width: 45%;
 }
 
+/* NOTE */
 .contact .form h2 {
+  font-family: 'Merriweather', serif;
   font-size: 2rem;
   color: #212529;
   padding-bottom: 10px;
@@ -347,19 +385,22 @@ h6 {
 }
 
 .contact .form .submit input::placeholder {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #666262;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .contact .form .submit textarea::placeholder {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #666262;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   height: 80%;
 }
 
 .contact .form .submit a {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding: 15px 0;
   text-decoration: none;
   background: #fb5607;
@@ -378,15 +419,19 @@ h6 {
   width: 45%;
 }
 
+/* NOTE */
 .contact .map h2 {
+  font-family: 'Merriweather', serif;
   font-size: 2rem;
   color: #212529;
   padding-bottom: 10px;
   width: 100%;
 }
 
+/* NOTE */
 .contact .map p {
-  font-size: 1.1rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5rem;
   color: #212529;
   padding-bottom: 10px;
   width: 100%;
@@ -410,7 +455,10 @@ h6 {
   align-items: center;
 }
 
+/* NOTE */
 .footer p {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.4rem;
   color: #636c6d;
   justify-content: flex-start;
 }
@@ -418,4 +466,766 @@ h6 {
 .footer p i {
   color: #fb5607;
   padding-right: 5px;
+}
+
+/* - - - MEDIA QUERYS - - - */
+
+@media screen and (max-width: 1042px) {
+  /* NAV SECTION */
+  .nav {
+    padding: 1rem 4.5rem;
+  }
+
+  .nav h2 {
+    font-size: 1.4rem;
+  }
+
+  #item li {
+    padding-right: 25px;
+  }
+
+  #item li a {
+    font-size: 0.9rem;
+  }
+
+  #item .icon i {
+    padding-right: 15px;
+  }
+
+  /* ABOUT SECTION */
+  .background {
+    background-position: center;
+  }
+
+  .about {
+    padding: 8rem 10rem;
+  }
+
+  .about .one {
+    width: 50%;
+  }
+
+  .about .one h3 {
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
+  }
+
+  .about .one h6 {
+    font-size: 1.6rem;
+    padding-bottom: 1.1rem;
+  }
+
+  .about .one p {
+    font-size: 1.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .about .one a {
+    font-size: 1.4rem;
+    padding: 1rem 0.7rem;
+  }
+
+  .about .two {
+    width: 40%;
+    padding-left: 6rem;
+  }
+
+  .about .two h3 {
+    font-size: 2.2rem;
+  }
+
+  .about .two li {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* NAV SECTION */
+  .nav {
+    padding: 1rem 3rem;
+  }
+
+  .nav h2 {
+    font-size: 1.4rem;
+  }
+
+  #item {
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 80vh;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100000;
+    margin-top: 4.2rem;
+    transition: 0.5s;
+  }
+
+  #item li {
+    padding-right: 0;
+    padding: 4px 0;
+  }
+
+  #item li a {
+    font-size: 1.2rem;
+  }
+
+  #item .icon {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #item .icon i {
+    padding: 0 15px 0 15px;
+  }
+
+  #bars {
+    display: initial;
+    cursor: pointer;
+  }
+
+  /* MIDDLE SECTION */
+
+  .middle p {
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .middle h2 {
+    font-size: 3.3rem;
+  }
+
+  .middle .btn-mid {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .middle .btn-mid a {
+    font-size: 1.1rem;
+  }
+
+  .middle .btn-mid a.main-btn {
+    padding: 0.7rem 1.4rem;
+  }
+
+  .middle .btn-mid a.border-btn {
+    padding: 0.7rem 1.4rem;
+  }
+
+  /* ABOUT SECTION */
+  .about {
+    padding: 6rem 8rem;
+  }
+
+  .about .one {
+    width: 50%;
+  }
+
+  .about .one h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .about .one h6 {
+    font-size: 1.4rem;
+    padding-bottom: 1.1rem;
+  }
+
+  .about .one p {
+    font-size: 1.4rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .about .one a {
+    font-size: 1.3rem;
+    padding: 1rem 0.7rem;
+  }
+
+  .about .two {
+    width: 40%;
+    padding-left: 4rem;
+  }
+
+  .about .two h3 {
+    font-size: 2rem;
+  }
+
+  .about .two li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* EVENTS SECTION */
+
+  /* RESOURCES SECTION */
+
+  .resource {
+    padding: 6rem 7rem;
+  }
+
+  .resource .resource-about h2 {
+    font-size: 1.9rem;
+    padding-bottom: 1.4rem;
+  }
+
+  /*  NOTE  */
+  .resource .resource-about p {
+    font-size: 1.2rem;
+  }
+
+  .resource .resource-about a {
+    padding: 0.75rem 1rem;
+    font-size: 1.1rem;
+  }
+
+  .resource .resource-links {
+    width: 50%;
+  }
+
+  .resource .resource-links .card-1 {
+    width: 45%;
+  }
+
+  .resource .resource-links .card-1 {
+    padding: 5px 15px 0 15px;
+  }
+
+  .resource .resource-links .card-1 .card-detail {
+    padding-bottom: 8px;
+  }
+
+  .resource .resource-links .card-1 .card-detail .website h4 {
+    font-size: 1.1rem;
+  }
+
+  .resource .resource-links .card-1 .card-detail .site-link a {
+    padding: 0 20px 5px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+
+  .resource .resource-links .card-1 .card-detail .site-link i {
+    padding: 0;
+    font-size: 1.1rem;
+    /* display: none; */
+  }
+
+  /* GALLERY SECTION */
+  /* CONTACT SECTION */
+  .contact {
+    padding: 6rem;
+  }
+
+  .contact .form h2 {
+    font-size: 1.7rem;
+    padding-bottom: 8px;
+    width: 100%;
+  }
+
+  .contact .form .submit input,
+  .contact .form .submit textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 3px 0;
+  }
+
+  .contact .form .submit input::placeholder {
+    font-size: 1.2rem;
+  }
+
+  .contact .form .submit textarea::placeholder {
+    font-size: 1.2rem;
+    height: 80%;
+  }
+
+  .contact .form .submit a {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+
+  .contact .map {
+    width: 45%;
+  }
+
+  .contact .map h2 {
+    font-size: 1.7rem;
+    padding-bottom: 7px;
+  }
+
+  .contact .map p {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 2rem 6rem;
+  }
+
+  .footer p {
+    font-size: 1.2rem;
+  }
+
+  .footer p i {
+    padding-right: 4px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* NAV SECTION */
+
+  .nav h2 {
+    font-size: 1.5rem;
+  }
+
+  .background {
+    background-position: center;
+  }
+
+  /* MIDDLE SECTION */
+
+  .middle p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .middle h2 {
+    font-size: 2.5rem;
+  }
+
+  .middle .btn-mid {
+    margin-top: 1.3rem;
+    display: flex;
+    text-decoration-style: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .middle .btn-mid a {
+    font-size: 1rem;
+  }
+
+  .middle .btn-mid a.main-btn {
+    padding: 0.7rem 1.4rem;
+  }
+
+  .middle .btn-mid a.border-btn {
+    margin-top: 0.4rem;
+    padding: 0.7rem 1.4rem;
+  }
+
+  /* ABOUT SECTION */
+  .about {
+    padding: 5rem 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .one {
+    width: 80%;
+  }
+
+  .about .one h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .about .one h6 {
+    font-size: 1.2rem;
+    padding-bottom: 1.1rem;
+  }
+
+  .about .one p {
+    font-size: 1.2rem;
+    padding-bottom: 1.3rem;
+  }
+
+  .about .one a {
+    font-size: 1.2rem;
+    padding: 0.8rem 0.5rem;
+  }
+
+  .about .two {
+    padding-left: 0;
+    border-left: 0;
+    border-top: 1px solid #636c6d;
+    width: 70%;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .about .two h3,
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .two li {
+    font-size: 1.1rem;
+  }
+
+  /* EVENTS SECTION */
+
+  /* RESOURCES SECTION */
+
+  .resource {
+    padding: 3rem 2rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .resource .resource-about {
+    width: 70%;
+  }
+
+  .resource .resource-about h2 {
+    font-size: 1.5rem;
+    padding-bottom: 1.1rem;
+  }
+
+  .resource .resource-about p {
+    font-size: 1rem;
+  }
+
+  .resource .resource-about .border-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .resource .resource-about a {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .resource .resource-links {
+    width: 60%;
+  }
+
+  .resource .resource-links .card-1 {
+    width: 45%;
+    padding: 0px 5px 0 5px;
+    margin-top: 1rem;
+  }
+
+  .resource .resource-links .card-1 .card-detail {
+    padding-bottom: 8px;
+  }
+
+  .resource .resource-links .card-1 .card-detail .website h4 {
+    font-size: 1rem;
+  }
+
+  .resource .resource-links .card-1 .card-detail .site-link a {
+    padding: 0 20px 0 20px;
+    font-size: 1rem;
+  }
+
+  .resource .resource-links .card-1 .card-detail .site-link i {
+    display: none;
+  }
+
+  /* GALLERY SECTION */
+  /* CONTACT SECTION */
+  .contact {
+    padding: 4rem;
+  }
+
+  .contact .form h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact .form .submit input,
+  .contact .form .submit textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 3px 0;
+  }
+
+  .contact .form .submit input::placeholder {
+    font-size: 1rem;
+  }
+
+  .contact .form .submit textarea::placeholder {
+    font-size: 1rem;
+    height: 80%;
+  }
+
+  .contact .form .submit a {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+
+  .contact .map {
+    width: 45%;
+  }
+
+  .contact .map h2 {
+    font-size: 1.3rem;
+    padding-bottom: 7px;
+  }
+
+  .contact .map p {
+    font-size: 1rem;
+    padding-bottom: 8px;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 1rem 3rem;
+  }
+
+  .footer p {
+    font-size: 1rem;
+  }
+
+  .footer p i {
+    padding-right: 4px;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  /* NAV SECTION */
+
+  .nav h2 {
+    font-size: 1rem;
+  }
+
+  .background {
+    background-position: center;
+  }
+
+  /* MIDDLE SECTION */
+
+  .middle p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .middle h2 {
+    font-size: 2rem;
+  }
+
+  .middle .btn-mid {
+    margin-top: 1.1rem;
+    display: flex;
+    text-decoration-style: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .middle .btn-mid a {
+    font-size: 0.8rem;
+  }
+
+  .middle .btn-mid a.main-btn {
+    padding: 0.7rem 1.4rem;
+  }
+
+  .middle .btn-mid a.border-btn {
+    margin-top: 0.4rem;
+    padding: 0.7rem 1.4rem;
+  }
+
+  /* ABOUT SECTION */
+  .about {
+    padding: 4rem 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .one {
+    width: 80%;
+  }
+
+  .about .one h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .about .one h6 {
+    font-size: 1rem;
+    padding-bottom: 1.1rem;
+  }
+
+  .about .one p {
+    font-size: 1rem;
+    padding-bottom: 1.3rem;
+  }
+
+  .about .one a {
+    font-size: 0.8rem;
+    padding: 0.6rem 0.4rem;
+  }
+
+  .about .two {
+    padding-left: 0;
+    border-left: 0;
+    border-top: 1px solid #636c6d;
+    width: 70%;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .about .two h3,
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .two h3 {
+    font-size: 1rem;
+  }
+
+  .about .two li {
+    font-size: 0.9rem;
+  }
+
+  /* EVENTS SECTION */
+
+  /* RESOURCES SECTION */
+
+  .resource {
+    padding: 2rem 2rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .resource .resource-about {
+    width: 70%;
+  }
+
+  .resource .resource-about h2 {
+    font-size: 1.5rem;
+    padding-bottom: 1.1rem;
+  }
+
+  .resource .resource-about p {
+    font-size: 1rem;
+  }
+
+  .resource .resource-about .border-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .resource .resource-about a {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .resource .resource-links {
+    width: 60%;
+  }
+
+  .resource .resource-links .card-1 {
+    width: 45%;
+    padding: 0px 5px 0 5px;
+    margin-top: 1rem;
+  }
+
+  .resource .resource-links .card-1 .card-detail {
+    padding-bottom: 8px;
+  }
+
+  .resource .resource-links .card-1 .card-detail .website h4 {
+    font-size: 0.8rem;
+    padding: 0 10px 0 10px;
+  }
+
+  .resource .resource-links .card-1 .card-detail .site-link a {
+    padding: 0 10px 0 10px;
+    font-size: 0.8rem;
+  }
+
+  .resource .resource-links .card-1 .card-detail .site-link i {
+    display: none;
+  }
+
+  /* GALLERY SECTION */
+  /* CONTACT SECTION */
+
+  .contact {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact .form {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .contact .form h2 {
+    font-size: 1rem;
+  }
+
+  .contact .form .submit input,
+  .contact .form .submit textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 3px 0;
+  }
+
+  .contact .form .submit input::placeholder {
+    font-size: 0.8rem;
+  }
+
+  .contact .form .submit textarea::placeholder {
+    font-size: 0.8rem;
+    height: 80%;
+  }
+
+  .contact .form .submit a {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+
+  .contact .map {
+    width: 80%;
+  }
+
+  .contact .map h2 {
+    font-size: 1rem;
+    padding-bottom: 7px;
+    margin-top: 1rem;
+  }
+
+  .contact .map p {
+    font-size: 1rem;
+    padding-bottom: 8px;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 1rem 1rem;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+  }
+
+  .footer p i {
+    padding-right: 3px;
+  }
 }
