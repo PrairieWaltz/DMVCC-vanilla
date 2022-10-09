@@ -385,9 +385,37 @@ h6 {
   width: 100%;
 }
 
+.contact .map p {
+  font-size: 1.1rem;
+  color: #212529;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.contact .map p i {
+  color: #fb5607;
+  padding-right: 4px;
+}
+
 .contact .map iframe {
   width: 100%;
 }
 
-.contact {
+.footer {
+  border-top: 1px solid #ecf0f1;
+  padding: 2rem 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  color: #636c6d;
+  justify-content: flex-start;
+}
+
+.footer p i {
+  color: #fb5607;
+  padding-right: 5px;
 }
