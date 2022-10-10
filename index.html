@@ -65,7 +65,7 @@
 
     <section>
       <div id="about" class="about">
-        <div class="one" data-aos="fade-up">
+        <div class="one" data-aos="fade-right">
           <h3>What is the DMVCC?</h3>
           <h6>
             Simply, A collective of cheesemongers & shop owners making the DMV
@@ -78,7 +78,7 @@
           </p>
           <a href="#">Become a member today</a>
         </div>
-        <div class="two" data-aos="fade-up">
+        <div class="two" data-aos="fade-left">
           <h3>Upcoming Events:</h3>
           <br />
           <li>10/**/22 | Live Event</li>
@@ -201,7 +201,10 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+      });
     </script>
     <script src="script.js"></script>
   </body>
