@@ -5,6 +5,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -18,7 +22,8 @@
 }
 
 /*  NOTE  */
-.nav h2 {
+.nav h2 a {
+  text-decoration: none;
   font-family: 'Merriweather', serif;
   color: rgb(255, 255, 255);
   font-size: 1.7rem;

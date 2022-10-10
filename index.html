@@ -23,133 +23,145 @@
       href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>DMVCC</title>
   </head>
   <body>
     <!-- NAVIGATION -->
 
-    <div class="nav">
-      <h2>HOME</h2>
-      <ul id="item">
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">EVENTS</a></li>
-        <li><a href="#">RESOURCES</a></li>
-        <li><a href="#">GALLERY</a></li>
-        <li><a href="#">CONTACT</a></li>
-        <div class="icon">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-youtube"></i>
-        </div>
-      </ul>
-      <i id="bars" class="fa-solid fa-bars"></i>
-    </div>
-
-    <div class="background">
-      <div class="overlay"></div>
-    </div>
-
-    <div class="middle">
-      <p>We're excited to meet you!</p>
-      <h2>DMV Cheesemonger Collective</h2>
-      <div class="btn-mid">
-        <a class="main-btn" href="#">Contact Us</a>
-        <a class="border-btn" href="#">Learn More</a>
+    <section>
+      <div class="nav">
+        <h2><a href="#home">HOME</a></h2>
+        <ul id="item">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#events">EVENTS</a></li>
+          <li><a href="#resources">RESOURCES</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </ul>
+        <i id="bars" class="fa-solid fa-bars"></i>
       </div>
-    </div>
 
+      <div id="home" class="background">
+        <div class="overlay"></div>
+      </div>
+
+      <div class="middle">
+        <p>We're excited to meet you!</p>
+        <h2>DMV Cheesemonger Collective</h2>
+        <div class="btn-mid">
+          <a class="main-btn" href="#contact">Contact Us</a>
+          <a class="border-btn" href="#about">Learn More</a>
+        </div>
+      </div>
+    </section>
     <!-- ABOUT SECTION -->
 
-    <div class="about">
-      <div class="one">
-        <h3>What is the DMVCC?</h3>
-        <h6>
-          Simply, A collective of cheesemongers & shop owners making the DMV one
-          of the foremost areas of cheese knowledge and offering.
-        </h6>
-        <p>
-          We are working together to share knowledge and accumulated experience
-          in the goal of furthering the DMV as a preeminent destination for
-          artisan cheese!
-        </p>
-        <a href="#">Become a member today</a>
+    <section>
+      <div id="about" class="about">
+        <div class="one" data-aos="fade-up">
+          <h3>What is the DMVCC?</h3>
+          <h6>
+            Simply, A collective of cheesemongers & shop owners making the DMV
+            one of the foremost areas of cheese knowledge and offering.
+          </h6>
+          <p>
+            We are working together to share knowledge and accumulated
+            experience in the goal of furthering the DMV as a preeminent
+            destination for artisan cheese!
+          </p>
+          <a href="#">Become a member today</a>
+        </div>
+        <div class="two" data-aos="fade-up">
+          <h3>Upcoming Events:</h3>
+          <br />
+          <li>10/**/22 | Live Event</li>
+          <li>11/**/22 | Live Event</li>
+          <li>12/**/22 | Live Event</li>
+          <li>01/**/23 | Live Event</li>
+        </div>
       </div>
-      <div class="two">
-        <h3>Upcoming Events:</h3>
-        <br />
-        <li>10/**/22 | Live Event</li>
-        <li>11/**/22 | Live Event</li>
-        <li>12/**/22 | Live Event</li>
-        <li>01/**/23 | Live Event</li>
-      </div>
-    </div>
-
+    </section>
     <!-- EVENTS SECTION WILL GO HERE -->
+    <section>
+      <div id="events" class="events"></div>
+    </section>
 
     <!-- RESOURCES SECTION -->
 
-    <div class="resource">
-      <div class="resource-about">
-        <h2>Resources</h2>
-        <p>
-          New to Cheese or just looking for somewhere to get started? Please use
-          these collected resources to jumpstart your learning today!
-          <br />
-          <br />
-          A core tennents of the DMVCC is open collaboration to create a trusted
-          hub for current and future cheesemongers and members. If you have a
-          great archive or know one you don't see listed please let us know.
-        </p>
-        <a class="border-btn" href="#">Skip to All</a>
-      </div>
+    <section>
+      <div id="resources" class="resource">
+        <div class="resource-about" data-aos="fade-up">
+          <h2>Resources</h2>
+          <p>
+            New to Cheese or just looking for somewhere to get started? Please
+            use these collected resources to jumpstart your learning today!
+            <br />
+            <br />
+            A core tennents of the DMVCC is open collaboration to create a
+            trusted hub for current and future cheesemongers and members. If you
+            have a great archive or know one you don't see listed please let us
+            know.
+          </p>
+          <a class="border-btn" href="#">Skip to All</a>
+        </div>
 
-      <div class="resource-links">
-        <div class="card-1">
-          <div class="img">
-            <img src="/images/CheeseBlock.jpeg" alt="" />
-          </div>
-          <div class="card-detail">
-            <div class="website">
-              <h4>CCP Study Guide</h4>
-              <!-- <i class="fa-solid fa-graduation-cap"></i> -->
+        <div class="resource-links">
+          <div class="card-1" data-aos="fade-up">
+            <div class="img">
+              <img src="/images/CheeseBlock.jpeg" alt="" />
             </div>
-            <div class="site-link">
-              <a
-                href="https://thatcheesyjames.org/studyguide/studyGuide_module801.html"
-                >Module</a
-              >
-              <i class="fa-solid fa-desktop"></i>
+            <div class="card-detail">
+              <div class="website">
+                <h4>CCP Study Guide</h4>
+                <!-- <i class="fa-solid fa-graduation-cap"></i> -->
+              </div>
+              <div class="site-link">
+                <a
+                  href="https://thatcheesyjames.org/studyguide/studyGuide_module801.html"
+                  >Module</a
+                >
+                <i class="fa-solid fa-desktop"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-1" data-aos="fade-up">
+            <div class="img">
+              <img src="/images/CheeseBlock.jpeg" alt="" />
+            </div>
+            <div class="card-detail">
+              <div class="website">
+                <h4>Cutting the Curd</h4>
+                <!-- <i class="fa-solid fa-graduation-cap"></i> -->
+              </div>
+              <div class="site-link">
+                <a
+                  href="https://heritageradionetwork.org/series/cutting-curd?gclid=CjwKCAjwv4SaBhBPEiwA9YzZvCJOyuI_-z6Zl_a576HbuqSNo4B47WKo82szfXODgwUbNnVwUM9WlhoC6vEQAvD_BwE#latest-episodes"
+                  >Episodes</a
+                >
+                <i class="fa-solid fa-headphones"></i>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card-1">
-          <div class="img">
-            <img src="/images/CheeseBlock.jpeg" alt="" />
-          </div>
-          <div class="card-detail">
-            <div class="website">
-              <h4>Cutting the Curd</h4>
-              <!-- <i class="fa-solid fa-graduation-cap"></i> -->
-            </div>
-            <div class="site-link">
-              <a
-                href="https://heritageradionetwork.org/series/cutting-curd?gclid=CjwKCAjwv4SaBhBPEiwA9YzZvCJOyuI_-z6Zl_a576HbuqSNo4B47WKo82szfXODgwUbNnVwUM9WlhoC6vEQAvD_BwE#latest-episodes"
-                >Episodes</a
-              >
-              <i class="fa-solid fa-headphones"></i>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
-
+    </section>
     <!-- PHOTO GALLERY WILL GO HERE -->
+
+    <section>
+      <div id="gallery" class="gallery"></div>
+    </section>
 
     <!-- CONTACT AND MAP SECTION-->
 
-    <div class="contact">
-      <div class="form">
+    <div id="contact" class="contact">
+      <div class="form" data-aos="fade-up">
         <h2>Contact Us:</h2>
         <div class="submit">
           <input type="text" name="" placeholder="Name:" />
@@ -164,17 +176,13 @@
           <a href="#">Send</a>
         </div>
       </div>
-      <div class="map">
+      <div class="map" data-aos="fade-up">
         <h2>Find Member Shops</h2>
         <p><i class="fa-solid fa-location-dot"></i> DC, Maryland, Virginia</p>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396623.534176668!2d-77.22040681358607!3d39.04675172773014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C%20DC!5e0!3m2!1sen!2sus!4v1665261412502!5m2!1sen!2sus"
-          width="600"
-          height="325"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/d/embed?mid=1kgwK2IYa2AS82iB1OWSOnj0M-f3VE8I&ehbc=2E312F"
+          width="640"
+          height="300"
         ></iframe>
       </div>
     </div>
@@ -182,7 +190,7 @@
     <!-- FOOTER -->
 
     <div class="footer">
-      <p>&COPY; DMVCC 2022 | PrairieWaltz Designs</p>
+      <p>&COPY; DMVCC 2022 | PrairieWaltz Design</p>
       <p>
         <i class="fa-solid fa-envelope"></i>DMVCC@gmail.com<br /><i
           class="fa-solid fa-phone"
@@ -190,7 +198,11 @@
         >000-000-0000
       </p>
     </div>
-    <!-- FOOTER WILL GO HERE -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
